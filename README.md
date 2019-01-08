@@ -4,7 +4,7 @@
 
 # Add code in AndroidManifest
 `````
- service android:name=".fcm.MyFirebaseMessagingService">
+ <service android:name=".fcm.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
